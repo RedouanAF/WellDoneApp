@@ -1,0 +1,178 @@
+:root {
+  --color-light-blue: #0883ce;
+  --color-dark-blue: #00609b; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  line-height: 1.6;
+  min-height: 100vh; }
+
+.header {
+  height: 12rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  min-width: 136.6rem;
+  background-color: #ffffff;
+  padding: 0rem 8.34rem 0rem 6.3rem;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16); }
+
+@font-face {
+  font-family: BebasNeue;
+  src: local(BebasNeue-Regular), url(/../fonts/BebasNeue-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal; }
+
+.header__wellDoneApp {
+  font-family: Roboto;
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.98;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0883ce;
+  margin-right: auto; }
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  flex: 0 0 56%;
+  align-items: center; }
+
+.header__nav-business {
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-align: left;
+  color: #0883ce;
+  display: block;
+  text-decoration: none; }
+
+.header__link-join {
+  box-sizing: content-box;
+  padding: 1.2rem 4.6rem 1.2rem 4.7rem;
+  background-color: #f8a557;
+  border-radius: .5rem; }
+  .header__link-join > button {
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-weight: 500;
+    border: 0;
+    color: #ffffff;
+    background-color: inherit; }
+    .header__link-join > button:focus {
+      outline: none; }
+
+.header__link-login {
+  padding: 1.1rem 6.7rem 1.1rem 6.8rem;
+  background-color: #ffffff;
+  border-radius: .5rem;
+  border: solid 2px #f8a557; }
+  .header__link-login > button {
+    font-size: 1.5rem;
+    font-family: Roboto;
+    font-weight: 500;
+    color: #f8a557;
+    border: 0;
+    background-color: inherit; }
+    .header__link-login > button:focus {
+      outline: none; }
+
+.header__select {
+  display: flex;
+  align-items: center; }
+  .header__select > select {
+    color: #0883ce;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 0;
+    background: inherit;
+    -webkit-appearance: none; }
+    .header__select > select:focus {
+      outline: none; }
+  .header__select__cheverons {
+    width: 11.6px;
+    height: 6px;
+    object-fit: contain; }
+
+.container {
+  height: 100%; }
+  .container .content__rectangle {
+    height: 52.7rem;
+    background-image: linear-gradient(to bottom, #00609b, #0883ce);
+    border-radius: 0px 0px 28% 28% / 10px 10px 51% 51%;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    min-width: 136.6rem;
+    transform: scaleX(1.1);
+    transform-origin: 50%;
+    background-size: contain; }
+  .container .content__heading {
+    margin-top: -51.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1; }
+    .container .content__heading-primary {
+      font-family: Roboto;
+      font-size: 6.5rem;
+      font-weight: 300;
+      text-align: center;
+      line-height: 1.17;
+      letter-spacing: .325rem;
+      text-transform: uppercase;
+      padding-top: 9rem;
+      color: #ffffff; }
+    .container .content__heading-sub {
+      font-family: BebasNeue;
+      font-size: 11.5rem;
+      font-weight: normal;
+      height: 11.1rem;
+      line-height: 1.2;
+      letter-spacing: 1.495rem;
+      text-align: center;
+      text-transform: uppercase;
+      display: block; }
+  .container .content__reasons {
+    display: flex;
+    flex-direction: column;
+    width: 79.2rem;
+    height: 33.8rem;
+    object-fit: contain;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin-top: 8.5rem;
+    padding-left: 10.8rem;
+    padding-top: 5.7rem;
+    padding-bottom: 6.6rem; }
+    .container .content__reasons-title {
+      font-family: Roboto;
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: #0883ce; }
